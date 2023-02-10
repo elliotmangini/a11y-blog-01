@@ -2,23 +2,20 @@
 
 <h1>A11y Accessibility</h1>
 
-<h3><em><a href="https://www.a11yproject.com/">The A11y Project</a> ("A"-eleven-"Y") is a community driven effort to make digital accessibility easier.</em><h3>
+<h2><em><a href="https://www.a11yproject.com/">The A11y Project</a> ("A"-eleven-"Y") is a community driven effort to make digital accessibility easier.</em><h2>
 
-<h2>Accessibility is the goal of incorporating a set of practices and principles that make your application, website, or product useful for a broader audience. It is in nature a humanitarian effort, and the following is my small contribution to the above community effort, which aims to help developers establish a big picture overview of what it means to
-incorporate great accessibility practices.</h2>
+<h3>Accessibility is the goal of incorporating a set of practices and principles that make your application, website, or product useful for a broader audience. It is in nature a humanitarian effort, and the following is my small contribution to the above community effort, which aims to help newer developers establish a big picture overview of what it means to
+incorporate great accessibility practices.</h3>
 
 <p>
 While completing a Full Stack bootcamp in 2022 I learned a ton about web development, but one of the things that gets overlooked in programs like the one I did is accessibility.
-This is common of programs of that type because the focus is on building projects and getting your legs. Which is wonderful and makes sense for the stage of learning most
-bootcamp attendees are at. Are you someone who just finished a bootcamp and is selecting next steps and things to learn? Well accessibility is a great way to make yourself a
-greater asset as an engineer, expand your understanding of the world of technology, and help you make decisions in your everyday workflow. Accessibility best practices are often about
-providing options but they're also about organizing information in a way that will make it useful to the largest number of people. The best way to create stellar accessibility
+This is common in these types of programs because the focus is on building projects and gaining practical experience, which is a great fit for the stage of learning most bootcamp attendees are at. If you have recently finished a bootcamp and are considering what to learn next, accessibility is a great way to make yourself more valuable as an engineer, expand your understanding of technology and improve your decision-making in your day-to-day workflow. Accessibility best practices are often about providing options but they're also about organizing information in a way that will make it useful to the largest number of people. The best way to create stellar accessibility
 in your projects is to think about it from the start as you work on a project. If you wait until the end of your project, making it accessible can be expensive and time-consuming. So
 as an engineer, one of the most valuable things you can offer is to be someone who writes beautiful, clean, accessible code from the start. An important thing to understand is that
-when it's done right, the cost of creating a robust experience pays for itself.
+when done correctly, the investment in creating a robust inclusive experience pays off.
 </p>
 
-<h2>Who is accessibility for?</h2>
+<h2>Who benefits from accessibility?</h2>
 <ul>
 <li>Physical Limitations: <em>Using a mouse, using a keyboard, using a touchscreen, using your voice.</em></li>
 
@@ -29,49 +26,48 @@ when it's done right, the cost of creating a robust experience pays for itself.
 <li>Audio: <em>Deafness, Captioning, Sign Language Interpretation, Video with Audio, Hardness of hearing.</em></li>
 </ul>
 
-<strong>Everyone.</strong>
+<strong>Accessibility benefits everyone.</strong>
 
-<em>Accessibility isn't as much about making sure your hotpink text displays on a black background as much as it is thinking about the needs of a hugely diverse set of individuals</em>
+<em>Accessibility is not just about ensuring that your text is visible on a black background, but rather considering the needs of a diverse range of individuals.</em>
 
 
 <h2>Where do we learn about accessibility best practices?</h2>
 
 IMAGE CARIE FISHER
 
-<p>This blog was created as a quick guid and way to run through the topics covered in Web Accessibility 101, a class provided by Carie Fisherm a Senior Accessibility Trainer, and offered as a one hour live stream.</p>
+<p>This blog serves as a brief guide and overview of the topics covered in <a href="https://www.youtube.com/live/oEiTjDMA7UU?feature=share">Carie Fisher's Web Accessibility 101 Seminar</a>, which is a one hour live stream provided by Fisher, a Senior Accessibility Trainer.</p>
 
 <h1>Terminology</h1>
 
 <strong>AT devices/AT Compatible</strong>
-</br>
+<br>
 <p>
     Assistive Technology (Devices) can refer to screen readers, keyboards, displays that magnify, but also things like Google Assistant/Siri. Any technologies that allow someone to organize what their viewing in a way that works for them.
 </p>
 
 <strong>Accessibility Overlays</strong>
-</br>
+<br>
 <p>
     Accessibility Overlays are technologies and strategies that we can slap onto legacy code to improve its accessibility either as
     developers or in some cases as users.
 </p>
 
-<h1>Forming a Strategy</h1>
+<h1>Developing an Accessibility Plan</h1>
 
 <p>
-    We want to use a good, better, best approach. When we wait until the end to implement accsibility we tend to start at the bottom of our "pyramid" of needs, which imagines those at the top as a group dependent on the narrowest window of informational presentation
+    We will adopt a good, better, best approach. Fisher explains in the seminar that when we wait until the end to implement accsibility we tend to start at the bottom of our "pyramid" of needs, which imagines those at the top as a group dependent on the narrowest window of informational presentation
     formats, and those at the bottom as being limited in some ways but able to utilize a wider range of designs than those at
-    the top. So when we start by presenting our information in a way that works for folks at the top, it generally has the effect of
+    the top. However, when we begin by presenting our information in a way that works for folks at the top, it generally has the effect of
     making our product work for everyone below them on the pyramid too. "Good" might be implementing good contrast practices, "Better" might be using a many-pronged approach where we're also offering choices between different fonts too-- and "Best" might be where we are doing those things, but where our primary concern and starting point is making sure our information is presented in an order that makes it easy to follow, where we're offering images for visual learners and text for folks who absorb information best by reading, and videos for folks who learn best that way-- where we're optimized for screen readers, for use without a mouse, across different screens etc. etc. and thinking about our designs in terms of the whole being greater than the sum of the parts.
 </p>
 
 <p>
-    The most important tenant of accessibility according to Fisher, is the skeleton. And I really love this approach, because it tickles
-    the part of my brain that thinks about visual design (which I have a bit more experience with) as being much more than aesthetics. The idea that where we put information and how "big" it is, or even <em>when we encounter it</em> is the <em>biggest</em>
-    thing that determines how readily we can follow along and relate to what we're engaging with. AT tools tend to work at the top level, doing things like making sure the focus highlighting is big and easy to see or giving you control over the fonts you're seeing, but
-    we want to adopt a mindset where we understand that...
+    According to Fisher, the most important tenant of accessibility is the skeleton. And I really love this approach, because it tickles
+    the part of my brain that thinks about visual design (an area where I have more experience) as being much more than aesthetics. The idea that where we put information and how "big" it is, or even <em>when we encounter it</em> is the <em>biggest</em>
+    thing that determines how readily we can follow along and relate to what we're engaging with. AT tools typically address the top level, such as ensuring the focus highlighting is large and visible or giving users control over font size, but we want to adopt a mindset where we understand that...
 </p>
 
-<em>Top level tools can't fix poor design language.</em>
+<em>Tools that only address the top level cannot fix poor design language.</em>
 
 
 <h3>Familiarizing ourselves with accessibility strategies</h3>
@@ -85,11 +81,7 @@ IMAGE CARIE FISHER
 
 <h2>Informational Heirarchy & Design Language</h2>
 
-Here we are going to talk first about that main goal-- the skeleton, structure, and HTML. And then go into some tips that work more
-in the middle of the pyramid.
-
-When someone is using a screen reader our HTML is the biggest factor in how accessible the content will be. So how do we write great
-"legible" HTML.
+<p>We will first discuss the main goal, the skeleton, structure, and HTML, and then move on to tips that focus on the middle of the pyramid. When using a screen reader, the HTML is the biggest factor in determining the accessibility of the content. So how do we write legible HTML?</p>
 
 <h3>Great HTML</h3>
 
@@ -110,15 +102,13 @@ When someone is using a screen reader our HTML is the biggest factor in how acce
 </ul>
 
 <p>
-    It sounds overly simplified, but as I've been working with a good friend of mine who is a senior developer as I become a
-    better dev, what it really comes down to is using code (especially HTML tags) for the things it is meant for (see item 1).
+    It may sound overly simplified, but after working with a senior developer friend and improving my skills, I have come to realize that using code (especially HTML tags) for their intended purpose (as outlined in item 1) is key.
 </p>
 
 <h3>Quick Tips</h3>
 
 <p>
-The following tips are gathered from the Web Content Accessibility Guidelines (WCAG) as well as from what I learned about Fisher's
-personal perspective on accessibility.
+The following tips are based on the Web Content Accessibility Guidelines (WCAG) and Fisher's personal perspective on accessibility.
 
 <strong>Provide text alternatives for non-text content:</strong> All non-text content such as images, videos, and audio files should have text descriptions or transcripts that can be read by assistive technology.
 
@@ -126,30 +116,28 @@ personal perspective on accessibility.
 
 You can use online tools such as the <a href="https://webaim.org/resources/contrastchecker/">WebAIM Color Contrast Checker</a> or the Accessibility Checker in Adobe Photoshop to test your color contrast and see if it meets the minimum requirements. It's important to keep in mind that while this is a general rule, there may be exceptions for logos, graphs, and charts, among other things. It's always best to consult the WCAG guidelines directly for a more complete understanding of the requirements.
 
-Fisher recommends the <a href="https://www.tpgi.com/color-contrast-checker/">Color Contrast Analyzer</a> by TPGi as a tool for checking contrast because it can analyze the code itself. But let's breifly look at how to perform a manual check to find problems that the automated checker can't catch.
+Fisher suggests using the <a href="https://www.tpgi.com/color-contrast-checker/">Color Contrast Analyzer</a> by TPGi for checking contrast because it can analyze the code itself. But let's breifly look at how to perform a manual check to find problems that the automated checker can't catch.
 
-We can select colors on our page using this checker by for example selecting the background color first...
+We can select colors on our page using this checker by selecting the background color first...
 </p>
 
+IMAGE
+
+<p>Then, selecting the font color...</p>
 
 IMAGE
 
-<p>Then selecting the font color...</p>
-
-IMAGE
-
-<p>Now we can see our contrast ratio-- in this case 1.57:1 which acccording to Fisher is "horrible".</p>
+<p>Now we can see our contrast ratio-- in this case, 1.57:1, which according to Fisher is "horrible".</p>
 
 IMAGE
 
 <p>
-    In the lecture, Fisher goes on to resize the window and check the same area on screen to see how as the elements move around the
-    contrast ratios a user encounters will change.
+    In her demonstration, Fisher goes on to resize the window and check the same area on screen. This demonstrates how the contrast ratios a user encounters can change as the elements move around.
 </p>
 
 IMAGE
 
-<p>These kinds of checkers can also tell us wether elements are focusable for example, and Fisher says by far this is her favorite one!</p>
+<p>These kinds of checkers can highlight problems of many kinds, for example showing us whether elements are focusable when we might want them to be. Fisher says by far this is her favorite one!</p>
 
 <ul>
 <li><strong>Provide visual cues for audio content:</strong> For audio content such as videos or podcasts, provide visual cues such as captions or transcripts to make it accessible to people with hearing impairments.</li>
@@ -169,9 +157,8 @@ IMAGE DYSLEXIE, COMIC SANS, & ATKINSON EXAMPLES
 
 IMAGE ARIAL
 <p>
-    However, Arial is a font that those individuals have encountered many many times and in studies it's
-    found that Arial is just as good as these specialty fonts in terms of reading comprehension and speed. So one of the principles
-    we are encountered again is the idea of making choices that work for a largest number of users.
+    However, Arial is a font that individuals with dyslexia have encountered many times. Studies have found that Arial is just as good as these specialty fonts in terms of reading comprehension and speed.
+    So it isn't always intuitive which choices will work for a largest number of users.
 </p>
 
 IMAGE CURSIVE & INDISTINCT CHARACTER EXAMPLES
@@ -181,5 +168,11 @@ IMAGE CURSIVE & INDISTINCT CHARACTER EXAMPLES
     avoiding fonts that do not have distinct characters can be a great place to start.
 </p>
 
-<h1>Providing Options</h1>
-<p>Now with that in mind, you can do something like implementing a toggles for different fonts, but you can also do something like not locking down your CSS so that someone can utilize their own style sheets using an AT tool or Screen Reader or something that would allow them to control how the page looks.</p>
+<h2>Providing Options</h2>
+<p>Now with the above in mind, you can do something like implementing a toggles for different fonts, but you can also do something like not locking down your CSS so that someone can utilize their own style sheets using an AT tool or Screen Reader or something that would allow them to control how the page looks.</p>
+
+<h1>Conclusions</h1>
+
+<p>Accessibility is a crucial aspect of web development that is often overlooked due to the fast pace of most bootcamp programs. However, it is an important area for new developers to focus on as it helps make applications, websites, and products useful for a wider audience, including those with physical, cognitive, and visual disabilities. Developing with great accessibility doesn't take extra time <em>most
+of the time</em>, it just requires an awareness of a few basic principles, and that awareness can actually help us make decisions more easily about where to put what and how to do things. Hopefully, this brief introduction to key terms and concepts, and overview of how to develop and incorporate an accessibility plan will help you as you encounter new codebases and begin to make more specific decisions with
+regard to accessibility. By making accessibility a priority, we can create a more inclusive and accessible digital world for all.</p>
